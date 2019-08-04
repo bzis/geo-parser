@@ -108,7 +108,6 @@ class Lexer extends AbstractLexer
     protected function getCatchablePatterns()
     {
         return array(
-            '[nesw\'",\X]',
             '(?:[0-9]+)(?:[\.][0-9]+)?(?:e[+-]?[0-9]+)?'
         );
     }
